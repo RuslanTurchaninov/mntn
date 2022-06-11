@@ -1,0 +1,164 @@
+/* font-family: 'Playfair Display', serif;
+font-family: Gilroy */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gilroy';
+    background-color: #0b1d26;
+    background-image: url("./../img/bg/BG.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+
+/* Base */
+.container-wide{
+    margin: 0 auto;
+    width: 1790px;
+    padding: 0 15px;
+}
+
+.row{
+    display: flex;
+    
+}
+
+.space-between {
+    justify-content: space-between;
+
+}
+
+
+/*Header */
+
+.header{
+    padding-top: 64px;
+}
+
+.nav-wrapper {
+    margin-bottom: 198px;
+}
+
+.logo{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.nav{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav li + li {
+    margin-left: 40px;
+}
+
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in
+}
+
+.nav a:hover{
+    color: #fbd784;
+} 
+
+.account {
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+.account:hover{
+    color: #fbd784;
+    transition: color 0.2s ease-in
+} 
+
+/* Hero */
+
+.hero{
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+
+}
+
+.hero-category{
+    margin-bottom: 32px;
+    position: relative;
+    padding-left: 104px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.222;
+    letter-spacing: 6px;
+    text-decoration: uppercase;
+    color: #fbd784;
+
+}
+
+.hero-category::before{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 72px;
+    height: 2px;
+    background-color: #fbd784;
+
+}
+
+.hero-title {
+    margin-bottom: 32px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 88px;
+    line-height: 1.136;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.hero-scroll{
+    display: inline-block;
+    position: relative;
+    padding-right: 32px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.222px;
+    color: #FFFFFF;
+}
+
+hero-scroll::after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 24px;
+    background-image: url("./../img/icons/arrow_downward_24px.svg");
+}
