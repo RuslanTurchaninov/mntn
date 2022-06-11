@@ -9,7 +9,7 @@ body {
     margin: 0;
     font-family: 'Gilroy';
     background-color: #0b1d26;
-    background-image: url("./../img/bg/BG.jpg");
+    background-image: url("img/bg/BG.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     color: #fff;
@@ -160,5 +160,5 @@ hero-scroll::after{
     transform: translateY(-50%);
     width: 16px;
     height: 24px;
-    background-image: url("./../img/icons/arrow_downward_24px.svg");
+    background-image: url("img/icons/arrow_downward_24px.svg");
 }
