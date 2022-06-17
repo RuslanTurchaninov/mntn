@@ -9,7 +9,7 @@ body {
     margin: 0;
     font-family: 'Gilroy';
     background-color: #0b1d26;
-    background-image: url("./../img/bg/BG.jpg");
+    background-image: url("/img/bg/BG.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     color: #fff;
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 p{
     transform: translateY(-50%);
     width: 16px;
     height: 24px;
-    background-image: url("./../img/icons/arrow_downward_24px.svg");
+    background-image: url("/img/icons/arrow_downward_24px.svg");
 }
 
 /* main */
@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6 p{
     transform: translateY(-50%);
     width: 24px;
     height: 16px;
-    background-image: url("./../img/icons/right.svg");
+    background-image: url("/img/icons/right.svg");
 }
 
 
