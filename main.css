@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 p{
     transform: translateY(-50%);
     width: 16px;
     height: 24px;
-    background-image: url("img/icons/arrow_downward_24px.svg");
+/*     background-image: url("img/icons/arrow_downward_24px.svg"); */
 }
 
 /* main */
